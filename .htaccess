@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Remove .html from URLs
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?]
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+# Internally load HTML files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L]
