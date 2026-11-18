@@ -405,10 +405,13 @@
     <ns0:changefreq>weekly</ns0:changefreq>
     <ns0:priority>0.7</ns0:priority>
   </ns0:url>
-<ns0:loc>https://creativesworld.xyz/Porch%20Ideas%20That%20Feel%20Warm%20Year%20Round</ns0:loc>
-    <ns0:changefreq>weekly</ns0:changefreq>
-    <ns0:priority>0.7</ns0:priority>
-  </ns0:url>
+
+<url>
+    <loc>https://creativesworld.xyz/Porch%20Ideas%20That%20Feel%20Warm%20Year%20Round</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
 
 
 </ns0:urlset>
